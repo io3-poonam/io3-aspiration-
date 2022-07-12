@@ -1,0 +1,184 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-div {
+  background-color: antiquewhite;
+  border: 2px solid black;
+}
+b {
+  color: rgb(242, 237, 237);
+}
+.main-div > .google-font-1 > p {
+  font-family: "Roboto", sans-serif;
+  background-image: url(https://www.clickandlearnphotography.com/wp-content/uploads/2019/01/using-natural-light-photography.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 33%;
+  height: 50vh;
+  border: 2px solid green;
+  padding: 4px;
+  font-size: 20px;
+}
+.main-div > .google-font-2 > p {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 33%;
+  height: 50vh;
+  margin: auto;
+  margin-top: -188px;
+  border: 2px solid green;
+  padding: 4px;
+  font-size: 20px;
+}
+.main-div > .google-font-3 > p {
+  font-family: "Rubik Moonrocks", cursive;
+  background-image: url(https://iso.500px.com/wp-content/uploads/2016/03/stock-photo-142984111-1500x1000.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  width: 33%;
+  height: 50vh;
+  float: right;
+  margin-top: -188px;
+  border: 2px solid green;
+  padding: 4px;
+  font-size: 20px;
+}
+.main-div > .google-font-4 > span {
+  display: block;
+  font-family: "Edu TAS Beginner", cursive;
+  background-image: url(https://cdn.pixabay.com/photo/2018/01/14/23/12/nature-3082832__340.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aliceblue;
+  border: 2px solid green;
+  width: 33%;
+  height: 50vh;
+  margin: 2px;
+  padding: 4px;
+  font-size: 20px;
+}
+.main-div > .google-font-5 > span {
+  display: block;
+  font-family: "Blaka Hollow", cursive;
+  background-image: url(https://assets.hongkiat.com/uploads/nature-photography/autumn-poolside.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2px auto;
+  padding: 4px;
+  width: 33%;
+  height: 50vh;
+  border: 2px solid green;
+  color: aliceblue;
+  margin-top: -11.83rem;
+  font-size: 25px;
+}
+.main-div > .google-font-6 > p {
+  font-family: "Playfair Display", serif;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpLzMewm9M3ac5D7CwpyDkmTiVzt-m282t1A&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid green;
+  float: right;
+  width: 33%;
+  height: 50vh;
+  margin-top: -11.83rem;
+  color: aliceblue;
+  font-size: 18px;
+}
+.main-div > .google-font-7 > span {
+  display: block;
+  font-family: "Fredericka the Great", cursive;
+  background-image: url(https://images.assettype.com/fortuneindia%2F2020-06%2Fef53f9be-f257-4aa3-9af5-6ca1a9f33a86%2Fclose_up_photography_of_leaves_with_droplets_807598.jpg?rect=0,607,4128,2322&w=1250&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid green;
+  width: 33%;
+  height: 50vh;
+  color: white;
+  padding: 4px;
+  margin: 2px;
+  font-size: 20px;
+}
+.main-div > .google-font-8 > span {
+  font-family: "Dancing Script", cursive;
+  display: block;
+  background-image: url(https://121clicks.com/wp-content/uploads/2012/03/natural_lighting_photography_26.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid green;
+  margin: auto;
+  padding: 4px;
+  width: 33%;
+  height: 50vh;
+  margin-top: -11.83rem;
+  color: aliceblue;
+  font-size: 20px;
+}
+.main-div > .google-font-9 > span {
+  font-family: "Pacifico", cursive;
+  display: flex;
+  flex-direction: column;
+  float: right;
+  background-image: url(https://img.freepik.com/free-photo/beautiful-scenery-road-forest-with-lot-colorful-autumn-trees_181624-30942.jpg?w=2000);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid green;
+  width: 33%;
+  height: 50vh;
+  margin-top: -11.76rem;
+  padding: 4px;
+  color: aliceblue;
+  font-size: 20px;
+}
+.main-div > .google-font-10 > span {
+  display: block;
+  font-family: "Monoton", cursive;
+  background-color: rgb(241, 164, 211);
+  width: 33%;
+  height: 50vh;
+  border: 2px solid green;
+  background-image: url(https://images.unsplash.com/photo-1620766165457-a8025baa82e0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmF0dXJlJTIwb2YlMjBpbmRpYXxlbnwwfHwwfHw%3D&w=1000&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 18px;
+  margin: 2px;
+}
+.main-div > .google-font-11 > span {
+  display: block;
+  font-family: "Sevillana", cursive;
+  background-color: rgb(241, 164, 211);
+  width: 33%;
+  height: 50vh;
+  margin: 2px auto;
+  margin-top: -11.78rem;
+  border: 2px solid green;
+  background-image: url(https://m.media-amazon.com/images/I/81RR3FAMfQL._SL1500_.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 25px;
+  padding: 4px;
+}
+.main-div > .google-font-12 > span {
+  display: block;
+  float: right;
+  margin-top: -11.86rem;
+  font-family: "Neonderthaw", cursive;
+  background-color: rgb(241, 164, 211);
+  width: 33%;
+  height: 50vh;
+  border: 2px solid green;
+  background-image: url(https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 25px;
+}

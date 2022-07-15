@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+table,
+th,
+td,
+tr {
+  background-color: rgb(188, 222, 211);
+}
+.table :nth-child(2n*1) {
+  color: aqua;
+}

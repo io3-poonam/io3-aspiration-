@@ -11,7 +11,7 @@ body {
   background-color: rgb(255, 255, 255);
   overflow: hidden;
   padding: 0;
-  box-shadow: 0px 0px 10px 0px;
+  box-shadow: 0px 0px 20px 2px rgb(196, 222, 249);
   border-radius: 5px;
 }
 ul {
@@ -67,7 +67,7 @@ ul > a > img {
   border-radius: 5px;
   margin-left: 10%;
   margin-top: 10px;
-  box-shadow: 0px 0px 10px 0px;
+  box-shadow: 0px 0px 20px 2px rgb(196, 222, 249);
 }
 .header {
   background-color: black;
@@ -115,7 +115,7 @@ td {
   border-radius: 5px;
   margin-left: 1%;
   margin-top: 10px;
-  box-shadow: 0px 0px 10px 0px;
+  box-shadow: 0px 0px 20px 2px rgb(196, 222, 249);
 }
 #Second-div > img {
   width: 40px;
@@ -142,7 +142,7 @@ td {
   height: 320px;
   background-color: #ffffff;
   border-radius: 5px;
-  box-shadow: 0px 0px 10px 0px;
+  box-shadow: 0px 0px 20px 2px rgb(196, 222, 249);
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -172,6 +172,9 @@ td {
   color: #80c9f7;
   font-weight: bolder;
   font-size: 15px;
+}
+#Third-div > p {
+  color: #848f97;
 }
 hr {
   margin: 0px 15px 0px 15px;

@@ -2,8 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  
-
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+#mainDiv {
+  display: flex;
+  flex-direction: row;
 }
 /* navbar-left-start */
 .navbar-left {
@@ -16,27 +22,117 @@ li {
   margin: 5px 0px 5px 10px;
 }
 h3 {
-  padding: 5px;
-  margin: 10px;
+  padding: 0px;
+  margin: 5px;
 }
 label {
-  padding: 3px;
-  margin: 3px;
+  padding: 2px;
+  margin: 0px;
   color: black;
 }
-img {
+.prime {
   width: 80px;
   height: 40px;
-  margin-left: -10px;
-  margin-bottom: -10px;
+  margin-left: 0px;
+  margin-bottom: -8px;
 }
 .checkbox {
   padding: 3px;
   margin: 5px 0px 5px 15px;
 }
-
 /* navbar-left-end */
 
+/* first-div-statrt */
+
+.para {
+  color: #03a9f4;
+
+  margin: 15px 0px 0px 8px;
+}
+.main-class {
+  /* border: 1px solid black; */
+  width: 80%;
+  height: 50vh;
+  float: left;
+  margin-top: 12px;
+}
+#flex {
+  display: flex;
+  flex-direction: row;
+}
+.first-div {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.first-div > a > img {
+  width: 170px;
+  height: 205px;
+}
+del{
+  margin-left: 10px;
+}
+.first-div > span {
+  background-color: #d8effa;
+}
+.first-div > .a-price {
+  margin-left: 0px;
+}
+.first-div > .a-price-symbol {
+  margin-left: 9px;
+}
+.second-div {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.second-div > a > img {
+  width: 150px;
+  height: 205px;
+}
+.third-div {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.third-div > a > img {
+  width: 150px;
+  height: 205px;
+}
+.forth-div {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.forth-div > a > img {
+  width: 150px;
+  height: 205px;
+}
+.fifth-div {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.fifth-div > a > img {
+  width: 150px;
+  height: 205px;
+}
+.sixth-div {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.sixth-div > a > img {
+  width: 170px;
+  height: 205px;
+}
+/* first-div-end */
 /* .star label:before {
   content: '⭐';
 } */

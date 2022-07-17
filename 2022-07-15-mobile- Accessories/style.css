@@ -23,22 +23,20 @@ li {
 }
 h3 {
   padding: 0px;
-  margin: 5px;
+  margin: 2px;
 }
 label {
-  padding: 2px;
-  margin: 0px;
   color: black;
 }
 .prime {
-  width: 80px;
-  height: 40px;
+  width: 70px;
+  height: 20px;
   margin-left: 0px;
-  margin-bottom: -8px;
+  margin-bottom: -3px;
 }
 .checkbox {
   padding: 3px;
-  margin: 5px 0px 5px 15px;
+  margin: 5px 0px 0px 15px;
 }
 /* navbar-left-end */
 
@@ -70,7 +68,7 @@ label {
   width: 170px;
   height: 205px;
 }
-del{
+del {
   margin-left: 10px;
 }
 .first-div > span {
@@ -132,7 +130,96 @@ del{
   width: 170px;
   height: 205px;
 }
+
 /* first-div-end */
+
+/* main-right-side start */
+
+.main-right-side {
+  /* border: 1px solid black; */
+  width: 80%;
+  height: 50vh;
+  float: left;
+  margin-top: 12px;
+}
+.para {
+  color: #03a9f4;
+
+  margin: 15px 0px 0px 8px;
+}
+.first-div-1 {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.first-div-1 > a > img {
+  width: 170px;
+  height: 205px;
+}
+del {
+  margin-left: 10px;
+}
+.first-div-1 > span {
+  background-color: #d8effa;
+}
+.first-div-1 > .a-price {
+  margin-left: 0px;
+}
+.first-div-1 > .a-price-symbol {
+  margin-left: 9px;
+}
+.second-div-1 {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.second-div-1 > a > img {
+  width: 150px;
+  height: 205px;
+}
+.third-div-1 {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.third-div-1 > a > img {
+  width: 150px;
+  height: 205px;
+}
+.forth-div-1 {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.forth-div > a > img {
+  width: 150px;
+  height: 205px;
+}
+.fifth-div-1 {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.fifth-div-1 > a > img {
+  width: 150px;
+  height: 205px;
+}
+.sixth-div-1 {
+  background-color: #edf3f9;
+  border: 1px solid #d8effa;
+  margin: 5px;
+  padding: 5px;
+}
+.sixth-div-1 > a > img {
+  width: 170px;
+  height: 205px;
+}
+/* main-div-right-side end*/
 /* .star label:before {
   content: '⭐';
 } */

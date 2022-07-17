@@ -5,14 +5,13 @@
   font-family: "Roboto", sans-serif;
   color: rgb(51, 92, 126);
 }
-.Copyright-Policy {
+.tnc {
   margin: auto;
   height: fit-content;
   width: 80%;
   padding: 80px;
 }
-p,
-li {
+p {
   font-weight: bolder;
   padding: 0px 0px 5px 0px;
   margin: 0px 0px 5px 0px;
@@ -20,4 +19,14 @@ li {
 h1 {
   margin: 10px 0px 2px 0px;
   padding: 8px 0px 2px 0px;
+}
+a {
+  color: rgb(9, 122, 208);
+  margin: 0px 3px 0px 2px;
+}
+li {
+  font-weight: bolder;
+  padding: 0px 0px 5px 0px;
+  margin-left: 20px;
+  list-style-position: inside;
 }

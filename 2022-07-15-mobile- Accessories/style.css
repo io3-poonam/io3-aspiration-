@@ -11,6 +11,32 @@
   display: flex;
   flex-direction: row;
 }
+/* star rating start */
+
+/* star rate not clear */
+.rating-star > .star-icon > input {
+  display: none;
+}
+.rating-star > .star-icon > .fa-solid {
+  color: #b8b4b4;
+  font-size: 15px;
+  cursor: pointer;
+}
+/* .star-icon input:checked ~ label {
+  color: #838383;
+} */
+.star-icon:not(:checked) > label:hover,
+.star-icon:not(:checked) > label:hover ~ label {
+  color: #ffe400;
+  text-shadow: 3px 3px goldenrod;
+}
+/* .star-icon input:checked > label:hover,
+.star-icon input:checked > label:hover ~ label {
+  color: #ffe400;
+  text-shadow: 3px 3px goldenrod;
+} */
+/* star rating end */
+
 /* navbar-left-start */
 .navbar-left {
   background-color: #ffffff;

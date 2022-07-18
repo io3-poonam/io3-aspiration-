@@ -27,6 +27,11 @@ a {
 li {
   font-weight: bolder;
   padding: 0px 0px 5px 0px;
-  margin-left: 20px;
-  list-style-position: inside;
+  margin-left: 50px;
+  list-style-position: outside;
+}
+.unorder-list li {
+  list-style-type: circle;
+  list-style-position: outside;
+  margin-left: 90px;
 }

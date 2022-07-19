@@ -17,22 +17,63 @@ body {
   display: flex;
   /* flex-wrap: wrap; */
 }
-.cap {
-  background-color: red;
-  border: 1px solid black;
+.cap-30 {
+  background-image: url();
   width: 175px;
   height: 175px;
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
 }
-.cap-1 {
+.cap-31 {
   background-color: red;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-right-radius: 50%;
   border-bottom-right-radius: 50%;
 }
+.cap-32 {
+  background-color: red;
+  width: 175px;
+  height: 175px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.cap-33 {
+  background-color: red;
+  width: 175px;
+  height: 175px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.cap-34 {
+  background-color: red;
+  width: 175px;
+  height: 175px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.cap-35 {
+  background-color: red;
+  width: 175px;
+  height: 175px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+.cap-36 {
+  background-color: red;
+  width: 175px;
+  height: 175px;
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.cap-37 {
+  background-color: red;
+  width: 175px;
+  height: 175px;
+  border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
 /* firts-capsule-end */
 
 /* capsule-second strat  */
@@ -42,13 +83,11 @@ body {
 }
 #capsule-second .hidden-2 {
   visibility: hidden;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
 }
 .cap-2 {
   background-color: rgb(192, 41, 131);
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-left-radius: 50%;
@@ -56,15 +95,13 @@ body {
 }
 .cap-3 {
   background-color: #d6119b;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-left-radius: 50%;
   border-bottom-left-radius: 50%;
 }
 .cap-4 {
-  background-color: #1612ff;
-  border: 1px solid black;
+  background-color: #af1f81;
   width: 175px;
   height: 175px;
   border-top-left-radius: 50%;
@@ -72,7 +109,6 @@ body {
 }
 .cap-5 {
   background-color: rgb(0, 170, 255);
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-left-radius: 50%;
@@ -80,7 +116,6 @@ body {
 }
 .cap-6 {
   background-color: rgb(112, 122, 148);
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-left-radius: 50%;
@@ -88,7 +123,6 @@ body {
 }
 .cap-7 {
   background-color: rgb(64, 175, 161);
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-left-radius: 50%;
@@ -103,34 +137,29 @@ body {
 }
 .hidden-3 {
   visibility: hidden;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
 }
 .cap-9 {
-  background-color: #1612ff;
-  border: 1px solid black;
+  background-color: #2889d9;
   width: 175px;
   height: 175px;
   border-radius: 50%;
 }
 .cap-10 {
-  background-color: #1612ff;
-  border: 1px solid black;
+  background-color: #2aa4e2;
   width: 175px;
   height: 175px;
   border-radius: 50%;
 }
 .cap-11 {
-  background-color: #1612ff;
-  border: 1px solid black;
+  background-color: #2296e9;
   width: 175px;
   height: 175px;
   border-radius: 50%;
 }
 .cap-12 {
-  background-color: #1612ff;
-  border: 1px solid black;
+  background-color: #2f8fd8;
   width: 175px;
   height: 175px;
   border-radius: 50%;
@@ -145,13 +174,11 @@ body {
 }
 .hidden-4 {
   visibility: hidden;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
 }
 .cap-13 {
   background-color: #17d092;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-bottom-left-radius: 50%;
@@ -160,7 +187,6 @@ body {
 }
 .cap-14 {
   background-color: #17d092;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-bottom-left-radius: 50%;
@@ -168,7 +194,6 @@ body {
   border-bottom-right-radius: 50%;
 }
 .cap-15 {
-  background-color: #17d092;
   border: 1px solid black;
   width: 175px;
   height: 175px;
@@ -177,8 +202,7 @@ body {
   border-bottom-right-radius: 50%;
 }
 .cap-16 {
-  background-color: #17d092;
-  border: 1px solid black;
+  background-color: pink;
   width: 175px;
   height: 175px;
   border-bottom-left-radius: 50%;
@@ -186,8 +210,7 @@ body {
   border-bottom-right-radius: 50%;
 }
 .cap-17 {
-  background-color: #17d092;
-  border: 1px solid black;
+  background-color: #17d081;
   width: 175px;
   height: 175px;
   border-bottom-left-radius: 50%;
@@ -196,7 +219,6 @@ body {
 }
 .cap-18 {
   background-color: #17d092;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-bottom-left-radius: 50%;
@@ -205,7 +227,6 @@ body {
 }
 .cap-19 {
   background-color: #17d092;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-bottom-left-radius: 50%;
@@ -213,6 +234,7 @@ body {
   border-bottom-right-radius: 50%;
 }
 /* capsule-forth-end*/
+
 /* .capsule-fifth-start */
 #capsule-fifth {
   display: flex;
@@ -220,13 +242,12 @@ body {
 }
 .hidden-5 {
   visibility: hidden;
-  border: 1px solid black;
+
   width: 175px;
   height: 175px;
 }
 .cap-20 {
   background-color: red;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-left-radius: 50%;
@@ -235,7 +256,6 @@ body {
 
 .cap-21 {
   background-color: red;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-left-radius: 50%;
@@ -243,7 +263,6 @@ body {
 }
 .cap-22 {
   background-color: red;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-right-radius: 50%;
@@ -252,7 +271,6 @@ body {
 
 .cap-23 {
   background-color: red;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-right-radius: 50%;
@@ -261,19 +279,17 @@ body {
 /* fifth-capsule-end */
 
 /* sixth-capsule-start */
-#capsule-seventh {
+#capsule-sixth {
   display: flex;
   /* flex-wrap: wrap; */
 }
-#capsule-seventh .hidden-7 {
+#capsule-sixth .hidden-6 {
   visibility: hidden;
-  border: 1px solid black;
   width: 175px;
   height: 175px;
 }
 .cap-24 {
   background-color: rgb(192, 41, 131);
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-left-radius: 50%;
@@ -282,7 +298,6 @@ body {
 
 .cap-25 {
   background-color: rgb(192, 41, 131);
-  border: 1px solid black;
   width: 175px;
   height: 175px;
   border-top-left-radius: 50%;
@@ -291,35 +306,54 @@ body {
 /* sixth-capsule-end */
 
 /* seventh-capsule-start */
-#capsule-third {
+#capsule-seventh {
   display: flex;
   /* flex-wrap: wrap; */
 }
-.hidden-3 {
+.hidden-7 {
   visibility: hidden;
   border: 1px solid black;
   width: 175px;
   height: 175px;
 }
-.cap-9 {
-  background-color: #1612ff;
-  border: 1px solid black;
+.cap-26 {
+  background-color: #9edf36;
   width: 175px;
   height: 175px;
   border-radius: 50%;
 }
-.cap-10 {
-  background-color: #1612ff;
-  border: 1px solid black;
+.cap-27 {
+  background-color: #12ff45;
   width: 175px;
   height: 175px;
   border-radius: 50%;
 }
-.cap-11 {
-  background-color: #1612ff;
-  border: 1px solid black;
+.cap-28 {
+  background-color: #0ef16d;
   width: 175px;
   height: 175px;
   border-radius: 50%;
 }
 /* seventh-capsule-end */
+
+/* eighth-capsule-start */
+#capsule-eighth {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+.hidden-8 {
+  visibility: hidden;
+  border: 1px solid black;
+  width: 175px;
+  height: 175px;
+}
+.cap-29 {
+  background-color: #9edf36;
+  width: 175px;
+  height: 175px;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
+/* eighth-capsule-end */

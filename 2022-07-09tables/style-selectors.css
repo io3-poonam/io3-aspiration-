@@ -35,7 +35,7 @@ td:nth-child(even) {
   text-align: center;
 }
 .td :nth-child(odd) {
-  background-color: #dddada;
+  background-color: #b5c3c6;
 }
 .td-1 :nth-child(odd) {
   background-color: #66a491;

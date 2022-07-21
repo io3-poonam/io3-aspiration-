@@ -24,21 +24,9 @@ table {
   width: 200px;
 }
 .bg-color {
-  color: #dddada;
   width: 100px;
 }
-.bg-color-1 {
-  color: #66a491;
-  width: 100px;
-}
-.bg-color-2 {
-  color: #acf5df;
-  width: 100px;
-}
-.bg-color-3 {
-  color: #036753;
-  width: 100px;
-}
+
 .hidden {
   visibility: hidden;
 }

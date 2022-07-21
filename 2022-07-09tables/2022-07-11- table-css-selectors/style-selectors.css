@@ -4,19 +4,63 @@
   box-sizing: border-box;
 }
 
-.table{
-  margin: 50vh auto;
-  width: 50%;
+.table {
+  margin: 30vh auto;
+  width: 90%;
   font-size: 25px;
-}  
-td, table {
+}
+td,
+table {
   border-collapse: collapse;
-  padding: 10px;
-  color: rgb(18, 86, 145);
-} 
-th:nth-child(odd)   {
-  color: rgb(43, 146, 5);
-}                                       
+  padding: 5px;
+  border: 3px solid white;
+}
+
+.space {
+  width: 300px;
+  color: #ffffff;
+}
+.space-1 {
+  width: 200px;
+}
+.bg-color {
+  color: #dddada;
+  width: 100px;
+}
+.bg-color-1 {
+  color: #66a491;
+  width: 100px;
+}
+.bg-color-2 {
+  color: #acf5df;
+  width: 100px;
+}
+.bg-color-3 {
+  color: #036753;
+  width: 100px;
+}
+.hidden {
+  visibility: hidden;
+}
 td:nth-child(even) {
-  color: rgb(146, 5, 17);
+  background-color: #f4efef;
+  text-align: center;
+}
+.td :nth-child(odd) {
+  background-color: #dddada;
+}
+.td-1 :nth-child(odd) {
+  background-color: #66a491;
+}
+.td-2 :nth-child(odd) {
+  background-color: #acf5df;
+}
+.td-3 :nth-child(odd) {
+  background-color: #036753;
+}
+span {
+  color: #31be46;
+}
+.span {
+  color: #f61010;
 }

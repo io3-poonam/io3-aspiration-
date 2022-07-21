@@ -1,0 +1,22 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.table{
+  margin: 50vh auto;
+  width: 50%;
+  font-size: 25px;
+}  
+td, table {
+  border-collapse: collapse;
+  padding: 10px;
+  color: rgb(18, 86, 145);
+} 
+th:nth-child(odd)   {
+  color: rgb(43, 146, 5);
+}                                       
+td:nth-child(even) {
+  color: rgb(146, 5, 17);
+}

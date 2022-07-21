@@ -40,13 +40,14 @@ body {
 }
 .main-div > #first-div > .google-font-1 > .header {
   margin: 40px 5px 10px 30px;
+  font-size: 30px;
 }
 
 .main-div > #first-div > .google-font-1 > .para {
   color: white;
   margin: 5px 5px 10px 5px;
   padding: 3px;
-  font-size: 12px;
+  font-size: 21px;
 }
 .google-font-2 {
   font-family: "Edu VIC WA NT Beginner", cursive;
@@ -58,7 +59,6 @@ body {
   padding: 5px;
   width: 30%;
   height: 45vh;
-  font-size: 14px;
   border-bottom-left-radius: 35px;
   border-top-right-radius: 35px;
   box-shadow: 4px;
@@ -74,13 +74,14 @@ body {
 }
 .main-div > #first-div > .google-font-2 > .header {
   margin: 20px 5px 10px 30px;
+  font-size: 30px;
 }
 
 .main-div > #first-div > .google-font-2 > .para {
   color: white;
   margin: 5px 5px 10px 5px;
   padding: 3px;
-  font-size: 12px;
+  font-size: 20px;
 }
 .google-font-3 {
   font-family: "Rubik Moonrocks", cursive;
@@ -92,7 +93,6 @@ body {
   padding: 5px;
   width: 30%;
   height: 45vh;
-  font-size: 11px;
   border-bottom-left-radius: 35px;
   border-top-right-radius: 35px;
   box-shadow: 4px;
@@ -108,13 +108,14 @@ body {
 }
 .main-div > #first-div > .google-font-3 > .header {
   margin: 20px 5px 10px 30px;
+  font-size: 30px;
   color: black;
 }
 .main-div > #first-div > .google-font-3 > .para {
-  color: white;
+  color: rgb(8, 246, 83);
   margin: 5px 5px 10px 5px;
   padding: 3px;
-  font-size: 10px;
+  font-size: 18px;
 }
 #Second-div {
   display: flex;
@@ -134,7 +135,6 @@ body {
   width: 30%;
   height: 45vh;
   color: aliceblue;
-  font-size: 14px;
   border-bottom-left-radius: 35px;
   border-top-right-radius: 35px;
   box-shadow: 4px;
@@ -150,12 +150,13 @@ body {
 }
 .main-div > #Second-div > .google-font-4 > .header {
   margin: 20px 5px 10px 30px;
+  font-size: 30px;
 }
 .main-div > #Second-div > .google-font-4 > .para {
   color: white;
   padding: 3px;
   margin: 5px 5px 10px 5px;
-  font-size: 12px;
+  font-size: 21px;
 }
 .google-font-5 {
   font-family: "Blaka Hollow", cursive;
@@ -182,12 +183,13 @@ body {
 }
 .main-div > #Second-div > .google-font-5 > .header {
   margin: 20px 5px 10px 30px;
+  font-size: 30px;
 }
 .main-div > #Second-div > .google-font-5 > .para {
   color: white;
   margin: 5px 5px 10px 5px;
   padding: 3px;
-  font-size: 12px;
+  font-size: 22px;
 }
 .google-font-6 {
   font-family: "Playfair Display", serif;
@@ -199,7 +201,6 @@ body {
   padding: 5px;
   width: 30%;
   height: 45vh;
-  font-size: 13px;
   border-bottom-left-radius: 35px;
   border-top-right-radius: 35px;
   box-shadow: 4px;
@@ -214,12 +215,13 @@ body {
 }
 .main-div > #Second-div > .google-font-6 > .header {
   margin: 20px 5px 10px 30px;
+  font-size: 30px;
 }
 .main-div > #Second-div > .google-font-6 > .para {
   color: white;
   margin: 5px 5px 10px 5px;
   padding: 3px;
-  font-size: 12px;
+  font-size: 22px;
 }
 #Third-div {
   display: flex;
@@ -233,7 +235,6 @@ body {
   background-image: url(https://images.assettype.com/fortuneindia%2F2020-06%2Fef53f9be-f257-4aa3-9af5-6ca1a9f33a86%2Fclose_up_photography_of_leaves_with_droplets_807598.jpg?rect=0,607,4128,2322&w=1250&q=60);
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
   margin: 5px;
   margin-left: 25px;
   padding: 5px;
@@ -253,12 +254,14 @@ body {
 }
 .main-div > #Third-div > .google-font-7 > .header {
   margin: 20px 5px 10px 30px;
+  color: white;
+  font-size: 30px;
 }
 .main-div > #Third-div > .google-font-7 > .para {
   color: white;
   margin: 5px 5px 10px 5px;
   padding: 3px;
-  font-size: 9px;
+  font-size: 17px;
 }
 .google-font-8 {
   font-family: "Dancing Script", cursive;
@@ -280,16 +283,17 @@ body {
   width: 55px;
   height: 55px;
   float: right;
-  box-shadow: 0px 0px 20px 1px rgb(5, 207, 248);
+  box-shadow: 0px 0px 20px 1px rgb(12, 208, 19);
 }
 .main-div > #Third-div > .google-font-8 > .header {
   margin: 20px 5px 10px 30px;
+  font-size: 30px;
 }
 .main-div > #Third-div > .google-font-8 > .para {
-  color: white;
+  color: rgb(60, 180, 56);
   margin: 5px 5px 10px 5px;
   padding: 3px;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .google-font-9 {
@@ -315,13 +319,14 @@ body {
 }
 .main-div > #Third-div > .google-font-9 > a > .header {
   margin: 20px 5px 10px 30px;
+  font-size: 30px;
   color: aliceblue;
 }
 .main-div > #Third-div > .google-font-9 > a > .para {
   color: white;
   margin: 5px 5px 10px 5px;
   padding: 3px;
-  font-size: 10px;
+  font-size: 20px;
   text-decoration: none;
 }
 
@@ -357,12 +362,13 @@ body {
 }
 .main-div > #Forth-div > .google-font-10 > .header {
   margin: 20px 5px 10px 35px;
+  font-size: 30px;
 }
 .main-div > #Forth-div > .google-font-10 > .para {
   color: white;
   margin: 5px 5px 10px 5px;
   padding: 3px;
-  font-size: 9px;
+  font-size: 18px;
 }
 .google-font-11 {
   font-family: "Dancing Script", cursive;
@@ -388,12 +394,13 @@ body {
 }
 .main-div > #Forth-div > .google-font-11 > .header {
   margin: 20px 5px 10px 30px;
+  font-size: 30px;
 }
 .main-div > #Forth-div > .google-font-11 > .para {
   color: white;
   margin: 5px 5px 10px 5px;
   padding: 3px;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 .google-font-12 {
@@ -419,10 +426,11 @@ body {
 }
 .main-div > #Forth-div > .google-font-12 > .header {
   margin: 20px 5px 10px 30px;
+  font-size: 30px;
 }
 .main-div > #Forth-div > .google-font-12 > .para {
   color: white;
   margin: 5px 5px 10px 5px;
   padding: 3px;
-  font-size: 10px;
+  font-size: 20px;
 }

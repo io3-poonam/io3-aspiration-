@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0%;
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   background-color: #cad5e7;
@@ -48,7 +48,7 @@ body {
 .btn {
   padding: 15px 30px 15px 30px;
   border-radius: 60px;
-  border-color: #ffffff;
+  border: 1px solid #babfc3;
   font-size: 20px;
 }
 li {
@@ -150,10 +150,7 @@ ul li:hover {
   background-color: #0039c6;
   color: #ffffff;
 }
-.fa-ellipsis:hover {
-  cursor: pointer;
- color: #0039c6;
-}
+
 .mid-item:hover {
   cursor: pointer;
   background-color: #0039c6;
@@ -170,7 +167,8 @@ ul li:hover {
   background-color: #ffffff;
   box-shadow: 0px 0px 8px 0px #97c1f1;
 }
-
+/* -----------index end---------- */
+/* -----------sub-index-0-start------------- */
 .sub-index-0 {
   border: 1px solid black;
   width: 100px;
@@ -182,8 +180,12 @@ ul li:hover {
   margin-left: 30px;
 }
 /* sub-index-hover-point */
-.sub-index-0:hover{
-
+.sub-index-0 .sub-index:hover {
+  display: block;
+  font-size: 30px;
+}
+.sub-index-0 img {
+  margin-top: 65px;
 }
 /* second-index-1-div start */
 
@@ -255,15 +257,16 @@ p {
 /* --hover-point-start-- */
 .search-1:hover {
   cursor: pointer;
-  background-color:#ffffff;
-  color:  #0039c6;
+  background-color: #ffffff;
+  color: #0039c6;
 }
 .btn-1:hover {
   cursor: pointer;
-  background-color:#ffffff;
-  color:  #0039c6;
+  background-color: #ffffff;
+  color: #0039c6;
 }
-
+.sub-buffer:hover,
+.sub-glass:hover,
 .gauge:hover,
 .hunt:hover,
 .envelope-open:hover,
@@ -273,7 +276,9 @@ p {
 .bell:hover,
 .dots:hover,
 .sliders:hover,
-.dot:hover {
+.dot:hover,
+.sub-ellipsis:hover {
+  display: block;
   cursor: pointer;
   background-color: #0039c6;
   color: #ffffff;
@@ -299,16 +304,17 @@ ul li:hover {
   background-color: #ffffff;
   color: #0039c6;
 }
-.fa-ellipsis:hover {
+/* .fa-ellipsis:hover {
   cursor: pointer;
   color: #ffffff;
-}
+} */
 .mid-item-1:hover {
   cursor: pointer;
   background-color: #ffffff;
   color: #0039c6;
 }
 /* hover-end */
+/* ------------sub-index-0-end------ */
 .index-1 {
   border: 1px solid black;
   width: 25%;

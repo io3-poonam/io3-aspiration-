@@ -1,0 +1,374 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+  margin: 0%;
+}
+#main-header {
+  height: 800px;
+  background-color: #f2f9ff;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #0a1b2c;
+  color: aliceblue;
+  padding: 5px;
+  height: 25px;
+}
+.navbar .red {
+  color: rgb(210, 14, 14);
+}
+.navbar .green {
+  color: green;
+}
+.fa-caret-up {
+  color: green;
+}
+.fa-caret-down {
+  color: rgb(210, 14, 14);
+}
+/* ------second navbar start------- */
+.bg-color {
+  background-color: #16345a;
+  position: sticky;
+  top: 1px;
+}
+.navbar-2 {
+  display: flex;
+  width: 82%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.img-tag {
+  display: flex;
+}
+.img-tag .fa-solid {
+  font-size: 10px;
+}
+img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+}
+.img-1 {
+  display: flex;
+}
+.usd {
+  margin-top: 15px;
+  color: white;
+}
+.fa-chevron-down {
+  color: whitesmoke;
+}
+.img-2 {
+  margin: 10px;
+}
+.en {
+  color: white;
+}
+.england {
+  width: 20px;
+  height: 20px;
+  border-radius: 50px;
+}
+
+.btn-1 {
+  border: none;
+  background-color: #153359;
+  color: #ffffff;
+  padding: 2px;
+}
+.btn-2 {
+  padding: 7px;
+  border: 1px solid #ffffff;
+  background-color: #153359;
+  margin-top: 10px;
+  margin-left: 13px;
+  color: #ffffff;
+  border-radius: 10px;
+}
+/* ------third navbar start---- */
+.navbar-3 {
+  background-color: #153359;
+  color: #ffffff;
+  width: 85%;
+  height: 70px;
+  margin: auto;
+  padding: 15px;
+}
+.left-side {
+  display: flex;
+  float: left;
+}
+.bg-color-1 {
+  background-color: #153359;
+  position: sticky;
+  top: 1%;
+}
+.right-side {
+  display: flex;
+  justify-content: space-evenly;
+  float: right;
+  color: #ffffff;
+  background-color: #153359;
+}
+
+.right-side ul {
+  display: flex;
+}
+.right-side ul li {
+  list-style-type: none;
+  padding: 5px 10px;
+  font-size: 21px;
+}
+.solid {
+  padding: 5px 15px;
+}
+/* -----navbar-finish---- */
+
+/* ----icon-start------ */
+
+.fa-brands,
+.fa-solid {
+  font-size: 20px;
+}
+/* ----facebook-start---- */
+.icon,
+.visible {
+  position: fixed;
+  top: 30%;
+  left: 1px;
+  background-color: #415f9a;
+  color: #ffffff;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.icon {
+  opacity: 0;
+  transform: translateY(0%);
+  transform: translateX(-50%);
+  transition: 1s ease-in-out;
+}
+.icon:hover {
+  opacity: 1;
+  transform: translateX(0%);
+  /* transform: translateY(-2%); */
+}
+.visible:hover {
+  /* visibility: hidden; */
+  display: none;
+}
+/* ----twitter-start---- */
+.icon-1,
+.visible-1 {
+  position: fixed;
+  top: 35%;
+  left: 1px;
+  background-color: #58aced;
+  color: #ffffff;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.icon-1 {
+  opacity: 0;
+  transform: translateY(0%);
+  transform: translateX(-50%);
+  transition: 1s ease-in-out;
+}
+.icon-1:hover {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.visible-1:hover {
+  display: none;
+}
+/* ----Pinterest-start---- */
+.icon-2,
+.visible-2 {
+  position: fixed;
+  top: 40%;
+  left: 1px;
+  background-color: #c03233;
+  color: #ffffff;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.icon-2 {
+  opacity: 0;
+  transform: translateY(0%);
+  transform: translateX(-50%);
+  transition: 1s ease-in-out;
+}
+.icon-2:hover {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.visible-2:hover {
+  display: none;
+}
+/* ----pinterest-end---- */
+
+/* ----linkedin-start---- */
+.icon-3,
+.visible-3 {
+  position: fixed;
+  top: 45%;
+  left: 1px;
+  background-color: #0679b8;
+  color: #ffffff;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.icon-3 {
+  opacity: 0;
+  transform: translateY(0%);
+  transform: translateX(-50%);
+  transition: 1s ease-in-out;
+}
+.icon-3:hover {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.visible-3:hover {
+  display: none;
+}
+/* ----linkdin-end--- */
+/* ----instagram-start---- */
+.icon-4,
+.visible-4 {
+  position: fixed;
+  top: 50%;
+  left: 1px;
+  background-color: #b83a8f;
+  color: #ffffff;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.icon-4 {
+  opacity: 0;
+  transform: translateY(0%);
+  transform: translateX(-50%);
+  transition: 1s ease-in-out;
+}
+.icon-4:hover {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.visible-4:hover {
+  display: none;
+}
+/* ----instagram-end--- */
+
+/* ----telegram-start---- */
+.icon-5,
+.visible-5 {
+  position: fixed;
+  top: 55%;
+  left: 1px;
+  background-color: #3a4862;
+  color: #ffffff;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.icon-5 {
+  opacity: 0;
+  transform: translateY(0%);
+  transform: translateX(-50%);
+  transition: 1s ease-in-out;
+}
+.icon-5:hover {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.visible-5:hover {
+  display: none;
+}
+/* ----telegram-end--- */
+/*-------Gmail-start---- - */
+.icon-6,
+.visible-6 {
+  position: fixed;
+  top: 60%;
+  left: 1px;
+  background-color: #e63f1f;
+  color: #ffffff;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.icon-6 {
+  opacity: 0;
+  transform: translateY(0%);
+  transform: translateX(-50%);
+  transition: 1s ease-in-out;
+}
+.icon-6:hover {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.visible-6:hover {
+  display: none;
+}
+
+/* -----icon-Gmail-finish---- - */
+
+/* .messege {
+ 
+} */
+
+.fa-comments {
+  font-size: 40px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: #153359;
+  color: #ffffff;
+  border-radius: 20px;
+  padding-top: 6px;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 2px 5px;
+  font-size: 21px;
+}
+.msg,
+.messege {
+  position: fixed;
+  bottom: 5%;
+  right: 1px;
+  color: #58aced;
+  padding: 5px;
+  border-radius: 20px;
+}
+.msg {
+  opacity: 0;
+  transform: translateY(0%);
+  transform: translateX(22%);
+  transition: 4s ease-in-out;
+  border: 1px solid #58aced;
+  height: 300px;
+  width: 200px;
+}
+.msg:hover {
+  opacity: 1;
+  transform: translateX(0%);
+}
+.messege:hover {
+  display: none;
+}
+p {
+  margin: 5px;
+}
+.bottom {
+  display: flex;
+  margin-top: 190px;
+}
